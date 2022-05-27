@@ -8,8 +8,8 @@ int main ()
 	for (int i = 0 ; i < 54; i++)
 		cards[i] = false;
 	int g[3], b[2],j;
-	freopen("test.input", "r", stdin);
-	freopen("test.output", "w", stdout);
+	//freopen("test.input", "r", stdin);
+	//freopen("test.output", "w", stdout);
 	while (scanf("%d", &g[0]), g[0]){
 		scanf("%d %d %d %d", &g[1], &g[2], &b[0], &b[1]);
 		for (int k = 0 ; k < 3 ; k++) cards[g[k]] = true;
